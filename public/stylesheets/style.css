@@ -4,5 +4,22 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+.card {
+  position: relative;
+  min-width: max-content;
+  border: 1px solid salmon;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.user {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.time {
+  position: absolute;
+  top: -5px;
+  font-size: 7px;
 }
