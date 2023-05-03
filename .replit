@@ -1,0 +1,3 @@
+run "node ./bin/www"
+onBoot = "npm install"
+language = "node"
